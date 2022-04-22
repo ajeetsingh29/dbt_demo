@@ -1,1 +1,1 @@
-select * from {{ ref('dim_customer')}}
+select * from {{ ref('fact_customer')}}
